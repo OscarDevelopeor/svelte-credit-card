@@ -260,13 +260,13 @@
                 <div class="logo">
                     <img src={ logo } class="coderos" alt="Coderos">
                     {#if src !== ''}
-                        <img class="company" { src }>
+                        <img class="company" { src } alt="company">
                     {/if}
                     
                 </div>
             </div>
             <div class="chip">
-                <img src={ chip } alt="">
+                <img src={ chip } alt="chip">
             </div>
             <div class="digits">
                 { #if digitsFormated !== null }
