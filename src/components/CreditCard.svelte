@@ -125,12 +125,12 @@
                   justify-content: space-between;
                   margin-top: .3rem;
                   .company {
-                    width:3rem;
+                    max-width:10%;
                     margin-right: .5rem;
                   }
 
                 .coderos {
-                    width:3rem !important;
+                    max-width:10% !important;
                     margin-left: 1rem;
                 }
               }
